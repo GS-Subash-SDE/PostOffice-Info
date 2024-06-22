@@ -37,7 +37,6 @@ export default function SearchBox({ query, setQuery, setApiStatus, setPostoffice
   return (
     <>
       <h3 className="title">Enter Pincode</h3>
-      <div className="form-cont">
         <form onSubmit={executeFetch}>
           <input
             className="pin-input"
@@ -48,7 +47,7 @@ export default function SearchBox({ query, setQuery, setApiStatus, setPostoffice
           />
           <button className="lookup-btn">Lookup</button>
         </form>
-      </div>
+    
     </>
   );
 }
