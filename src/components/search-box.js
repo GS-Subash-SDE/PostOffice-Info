@@ -47,6 +47,16 @@ export default function SearchBox({ query, setQuery, setApiStatus, setPostoffice
           />
           <button className="lookup-btn">Lookup</button>
         </form>
+        <form onSubmit={executeFetch}>
+          <input
+            className="pin-input"
+            value={query}
+            onChange={frequencyCatch}
+            type="text"
+            placeholder="Pincode"
+          />
+          <button className="lookup-btn">Lookup</button>
+        </form>
     
     </>
   );
