@@ -29,6 +29,7 @@
   }
 
   .form-cont {
+    display: block;
     form {
       display: flex;
       flex-direction: column;
@@ -79,8 +80,7 @@
     }
   }
 
-  .info-tab {
-  }
+
   .search-box {
     margin-bottom: 1rem;
     width: 100%;
